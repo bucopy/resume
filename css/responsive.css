@@ -83,6 +83,10 @@
   	background-color: #FF5382;
   }
 
+  .btn:hover {
+  	background-color:#FF5382;
+  }
+
   .btn2:hover {
   	background-color:rgba(255,255,255,0);
   	color: #FFF;
