@@ -70,7 +70,7 @@ h5 {
 	display: inline-block;
 	text-transform: uppercase;
 }
-.btn2:hover, .btn2:focus {
+.btn2:hover {
 	background-color:rgba(255,255,255,0);
 	color: #13422E;
 }
