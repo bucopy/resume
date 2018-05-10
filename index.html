@@ -20,16 +20,16 @@
 
 <script type="text/javascript">
  function changeLanguage(){
-   if (document.getElementById("lang").value=="EN") {
+   if (document.getElementById("lang").innerHTML=="EN") {
 
      document.getElementById("introduce").innerHTML="2013年开始工作，到现在一直从事UI设计<br>虽是UI设计师，也设计Logo、字体、VI、海报、插画、表情、视频...<br>会点Html，会点Swift，玩过学的工具，学习总结，提高知识深度<br>英语很烂，全靠Google、有道，任重而道远<br>设计更好的产品，成为更好的自己<br>";
      document.getElementById("intro").innerHTML="用户界面设计师<br>4年工作经验";
-     document.getElementById("lang").value="中文";
+     document.getElementById("lang").innerHTML="中文";
    }
    else {
      document.getElementById("introduce").innerHTML="In 2013,I started  working as a UI desginer.<br>Now,I'm still a UI designer,but i designed logo,font,VI,Illustration,video...<br>I can write a little HTML and Swift. <br>I've played a lot of design tools.<br>I'm still learning to improve my depth of knowledge.<br>My English is very poor,relying on Google and Youdao.<br>So I'm now working on my English.<br>I want to make better products and become better ones.";
      document.getElementById("intro").innerHTML="User Interface Designer<br>4 Years Working Experience";
-     document.getElementById("lang").value="EN";
+     document.getElementById("lang").innerHTML="EN";
    }
 }
 </script>
@@ -38,7 +38,7 @@
 <body>
 <!-- header section -->
 <section class="banner" role="banner">
-  <input id="lang" type="button" class="btn2 btn2-large" onclick="changeLanguage()" value="EN">
+  <a id="lang" type="button" class="btn2 btn2-large" onclick="changeLanguage()" >EN</a>
 
   <!-- banner text -->
   <div class="container">
