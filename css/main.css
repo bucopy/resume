@@ -56,6 +56,28 @@ h5 {
 .btn-large {
 	padding: 15px 40px;
 }
+
+.btn2 {
+	background-color:rgba(255,255,255,0);
+	color: #fff;
+	font-size: 13px;
+	font-weight: 800;
+	letter-spacing: 3px;
+	border: 0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.btn2:hover, .btn2:focus {
+	background-color:rgba(255,255,255,0);
+	color: #13422E;
+}
+.btn2-large {
+	padding: 30px 30px;
+}
+
 /* ------------------------------------------------------------------------------
 	Global Styles
 -------------------------------------------------------------------------------*/
@@ -105,7 +127,7 @@ ul li {
 	min-height: 560px;
 }
 .banner-text {
-	padding-top: 105px;
+	padding-top: 35px;
 }
 .banner-text h1 {
 	color: #fff;
