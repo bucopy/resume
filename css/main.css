@@ -39,22 +39,22 @@ h5 {
 .btn {
 	background-color: #3bc492;
 	color: #fff;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 600;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
 	border: 0;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	border-radius: 2px;
+	border-radius: 4px;
 	display: inline-block;
 	text-transform: uppercase;
 }
 .btn:hover, .btn:focus {
-	background-color: #3d3d3d;
+	background-color: #202824;
 	color: #fff;
 }
 .btn-large {
-	padding: 15px 40px;
+	padding: 16px 40px 16px 42px;
 }
 
 .btn2 {
@@ -72,7 +72,7 @@ h5 {
 }
 .btn2:hover {
 	background-color:rgba(255,255,255,0);
-	color: #13422E;
+	color: #202824;
 }
 .btn2-large {
 	padding: 30px 30px;
@@ -118,6 +118,10 @@ ul li {
 	margin-top:60px;
 }
 
+.sectionbtn {
+	padding: 0px 0;
+}
+
 /* ------------------------------------------------------------------------------
 	Banner
 -------------------------------------------------------------------------------*/
@@ -155,10 +159,11 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .descripton p {
-	color: #222222;
+	color: #202824;
 	font-size: 14px;
 	line-height: 32px;
-	font-weight: 300;
+	font-weight: 350;
+	letter-spacing: 0.5px;
 }
 /* ------------------------------------------------------------------------------
 	Works
@@ -288,7 +293,7 @@ ul li {
 	font-weight: 400;
 }
 .hireme .btn {
-	margin-top: 30px;
+	margin-top: 0px;
 }
 /* ------------------------------------------------------------------------------
 	Footer
@@ -298,10 +303,11 @@ ul li {
 }
 .footer p {
 	font-family: "Roboto", sans-serif;
-	font-size: 11px;
-	color: #7f7f7f;
+	font-size: 12px;
+	color: #ccc;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	font-weight: 350;
 }
 .footer a {
 	color: #7f7f7f;

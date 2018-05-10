@@ -71,11 +71,16 @@
      height: 160px;
     }
     .descripton p {
-    	color: #222222;
-    	font-size: 10px;
+    	color: #2A030D;
+    	font-size: 11px;
     	line-height: 25px;
-    	font-weight: 300;
+    	font-weight: 350;
+      letter-spacing: 0.5px;
     }
+  }
+
+  .btn {
+  	background-color: #FF5382;
   }
 
   .btn2:hover {
