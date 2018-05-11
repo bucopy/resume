@@ -76,21 +76,25 @@
     	line-height: 25px;
     	font-weight: 350;
       letter-spacing: 0.5px;
+      /* margin-left: 10px;
+      margin-right: 10px; */
     }
+    .btn {
+    	background-color: #3bc492;
+    }
+
+    .btn:hover {
+    	background-color:#3bc492;
+    }
+
+    .btn2:hover {
+    	background-color:rgba(255,255,255,0);
+    	color: #FFF;
+    }
+
   }
 
-  .btn {
-  	background-color: #FF5382;
-  }
 
-  .btn:hover {
-  	background-color:#FF5382;
-  }
-
-  .btn2:hover {
-  	background-color:rgba(255,255,255,0);
-  	color: #FFF;
-  }
 
 
 
